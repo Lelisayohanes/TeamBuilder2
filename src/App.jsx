@@ -1,14 +1,29 @@
 
 import './App.css'
-// import Hero from './Components/Hero'
+import Navbar from './Components/Navbar'
+// import Contuct from './Components/Contuct'
+// import Clients from './Components/Clients'
+// import Technologies from './Components/Technologies'
+// import Specialized from './Components/Specialized'
+import Hero from './Components/Hero'
+import HowToStart from './Components/HowToStart'
 import Solutions from './Components/Solutions'
+import Expertise from './Components/Expertise'
 
 function App() {
 
   return (
     <div className='app-container'>
-      {/* <Hero/> */}
-      <Solutions/>
+      <Navbar/>
+      <Hero/>
+       <Solutions/>
+      <HowToStart/>
+      <Expertise/>
+      {/*<Specialized/>
+      <Technologies/> 
+      <Clients/>
+      <Contuct/>  */}
+      
     </div>
   )
 }

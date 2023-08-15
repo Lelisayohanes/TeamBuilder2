@@ -1,0 +1,79 @@
+.iss-slideshow-container {
+    position: relative;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+  }
+  
+  /* .iss-slide {
+    display: block;
+    position: relative;
+  } */
+  .iss-slide {
+    display: flex; /* Use flexbox to center the image */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .iss-slide img {
+    width: 200px; /* Set the desired width */
+    height: 64px; /* Set the desired height */
+    object-fit: contain; /* Maintain the aspect ratio and contain the image */
+  }
+  /* .iss-slide img {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 213px;
+    height: 71px;
+    flex-shrink: 0;
+  } */
+  
+  .iss-prev,
+  .iss-next {
+    cursor: pointer;
+    position: absolute; /* Changed position to relative */
+    width: auto;
+    padding: 1em;
+    color: rgb(19, 19, 19);
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.6s ease;
+  }
+  .iss-prev{
+    left: 0rem;
+    /* top: 8%; */
+  }
+  .iss-next {
+    right: 0rem;
+    /* top: 10%; */
+  }
+  
+  .iss-prev:hover,
+  .iss-next:hover {
+    background-color: rgba(145, 207, 236, 0.8);
+    background-color: transparent;
+  }
+  
+  .iss-dots {
+    text-align: center;
+  }
+  
+  .iss-dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .iss-active {
+    background-color: #717171;
+  }
+  .iss-slide-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

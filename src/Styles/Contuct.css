@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
+
+/* Contuct.css */
+
+img {
+    width: 100%;
+  }
+  .ctct-over-image{
+    background-color: #FFF;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .ctct-image {
+    position: relative;
+    z-index: -1; /* Set a lower z-index to place the image behind the container */
+  }
+  
+  .ctct-contuct-container {
+    color: var(--black, #16205F);
+    font-family: "Poppins",  sans-serif;
+    z-index: 1; /* Set a higher z-index to place the container above the image */
+    width: 90%;
+    margin: -10em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF; /* Set your desired background color here */
+    
+  }
+  
+  .ctct-contuct-header {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.25em;
+  }
+  
+  .ctct-contuct-form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 2em;
+  }
+  
+  .ctct-contuct-form label {
+    margin-bottom: 0.35em;
+    /* background-color: aqua; */
+    font-size: 1rem;
+    font-weight: 600;
+    
+  }
+  
+  .ctct-contuct-form input {
+    /* background-color: #16205F; */
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2em;
+  }
+  .ctct-check-box{
+    font-size: 1rem;
+    display: flex;
+    gap: 1em;
+    
+    /* background-color: #16205F; */
+  }
+
+  .ctct-form-button{
+    margin: 1.5em 0 3em;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.85em 1.25em;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(100deg, rgba(255, 155, 0, 1) 1%, rgba(253, 164, 0, 1) 20%, rgba(255, 155, 1, 1) 40%, rgba(251, 189, 48, 1) 60%, rgba(247, 189, 1, 1) 80%, rgba(242, 203, 0, 1) 100%);
+  }
+  textarea {
+    width: 90%;
+    padding: 0.85em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    font-size: 1em;
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 5em; /* Set a minimum height */
+  }
