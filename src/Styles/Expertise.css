@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
+
+img{
+    width:100%;
+}
+.exts-container{
+    color: var(--black, #16205F);
+    font-family: "Poppins",  sans-serif;
+    width: 90%;
+    margin:0 auto 5em auto;
+}
+.exts-text{
+  margin-top: 3em;
+}
+.exts-header{
+    font-size: 2rem;
+    /* font-style: normal; */
+    font-weight: 600;
+    
+}
+
+.exts-header2{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 1em;
+}
+.exts-paragraph{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:1.5em 0;
+    padding-bottom:1em;
+}
+.exts-slide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Solutions.css */
+.exts-slide:not(:first-child) {
+    display: none;
+  }
+  
+  /* Radio button styles */
+  .exts-slider-button label {
+    margin-right: 10px;
+    /* padding: 1em; */
+    
+    
+  }
+  
+  .exts-slider-button input[type="radio"] {
+    display: none;
+  }
+  
+  .exts-slider-button input[type="radio"] + span {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #F0F0F0;
+    /* border: 1px solid #100e0e; */
+    cursor: pointer;
+    width: 42px;
+  }
+  
+  .exts-slider-button input[type="radio"]:checked + span {
+    background-color: #bdbbbb;
+    color: #fff;
+    border-color: #007bff;
+  }
+  .slide-image{
+    width: 124px;
+    height: 124px;
+    flex-shrink: 0;
+    background:#FFF856;
+    border-radius: 8px;
+}
+.exts-slide-image{
+    display:flex;
+    justify-content:center;
+    margin:2.5em 0;
+    
+}
+.exts-each-header{
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.exts-each-paragraph{
+  margin-top: 1em;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.exts-slider-button{
+  margin: 4em  0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 700px) {
+  .exts-container {
+    width: 80%;
+  }
+  .exts-each-paragraph{
+    width: 100%;
+  }
+  .exts-text {
+    /* display: none !important; */
+    width: 50%;
+  }
+  .exts-slider-button{
+    display: none;
+  }
+
+
+  .exts-paragraph{
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:1.5em 0 3em 0;
+    padding-bottom:1em;
+}
+.exts-slide{
+  
+  width: 100%;
+}
+
+.exts-slide-text{
+
+  width: 100%;
+}
+  .exts-slides {
+    /* background-color: #007bff; */
+    width: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    gap: 1rem;
+  }
+
+  .exts-slide {
+    /* background-color: #FFF856; */
+    min-width: 230px;
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content horizontally to the start */
+    align-items: flex-start; /* Align content vertically to the start */
+    gap: 1em;
+  }
+  .exts-slide-image {
+    width: auto;
+    margin: 0;
+    max-width: 124px;
+  }
+  .exts-each-header{
+    font-size: 1.4rem;;
+  }
+ 
+  .exts-slide-text{
+    width: 100%;
+    max-width:380px;
+    padding-right: 1em;
+  }
+  .slide-image{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+ @media (min-width: 700px) and (max-width: 1000px) {
+  .exts-slides {
+    width: 100%;
+    margin: 1em 0em 0em 0em;  
+    display: flex;
+    flex-direction: row; /* Display slides in a row */
+    justify-content: center; /* Distribute space between slides */
+    align-items: flex-start; 
+    flex-wrap: wrap;
+  }
+
+  .exts-slide {
+    
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 25%; 
+    gap: 0.125em; 
+    min-width: 260px;
+  }
+  .exts-slide-text{
+    width: 100%;
+  }
+  .exts-slide-image{
+    align-self: flex-start;
+    padding-left: 2em;
+  }
+}

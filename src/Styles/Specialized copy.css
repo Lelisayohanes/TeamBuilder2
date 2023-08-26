@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500&display=swap');
+
+img{
+    width:100%;
+}
+.whole-specialized{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+.spcz-container{
+    color: var(--black, #16205F);
+    font-family: "Poppins",  sans-serif;
+    width: 90%;
+    margin:0 auto;
+    padding-top: 2em;
+}
+.spcz-text{
+  margin-top: 3em;
+  
+}
+.spcz-header{
+    font-size: 2rem;
+    /* font-style: normal; */
+    font-weight: 600;
+    
+}
+
+.spcz-header2{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 1em;
+}
+.spcz-paragraph{
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:1.5em 0;
+    padding-bottom:1em;
+}
+.spcz-slide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Solutions.css */
+.spcz-slide:not(:first-child) {
+    display: none;
+  }
+  
+  /* Radio button styles */
+  .spcz-slider-button label {
+    margin-right: 10px;
+    /* padding: 1em; */
+    padding-bottom: 5em;
+    
+  }
+  
+  .spcz-slider-button input[type="radio"] {
+    display: none;
+
+  }
+  
+  .spcz-slider-button input[type="radio"] + span {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #F0F0F0;
+    /* border: 1px solid #100e0e; */
+    cursor: pointer;
+    width: 42px;
+  }
+  
+  .spcz-slider-button input[type="radio"]:checked + span {
+    background-color: #bdbbbb;
+    color: #fff;
+    border-color: #007bff;
+  }
+  .slide-image{
+    width: 124px;
+    height: 124px;
+    flex-shrink: 0;
+    background:#FFF856;
+    border-radius: 8px;
+}
+.spcz-slide-image{
+    display:flex;
+    justify-content:center;
+    margin:2.5em 0;
+    
+}
+.spcz-each-header{
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  
+}
+.spcz-each-paragraph{
+  margin-top: 1em;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.spcz-slider-button{
+  margin: 4em  0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.each-spcz-image-background{
+    background: yellow;
+    border-radius: 8px;
+}
+.spcz-each-item{
+    display: flex;
+    background: #FEFEFE;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    gap: 1em;
+}
+.each-spcz-image{
+    width: 37px;
+    height: 35.806px;
+    flex-shrink: 0;
+    background: #FEFEFE;
+    margin-left: 0.6em;
+    margin-bottom: -0.4em;
+    padding: 1em 0.5em 1em 1.25em;
+    align-self: center;
+}
+.each-spcz-description{
+    background: #FEFEFE;
+    width: fit-content;
+    padding-right: 1em;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.spcz-each-items{
+    margin-top: 2em;
+    display: flex;  
+}
+
+.spcz-each-items-mobile{
+    width:100%;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Add this media query to display all items in four columns for desktop */
+@media (min-width: 768px) {
+    .spcz-slides{
+      display: block;
+      background-color: greenyellow;
+      
+      padding: 3em 0;
+    }
+    .spcz-slide {
+      width: calc(25% - 1em); 
+      background-color: #007bff;
+      display: block;
+      
+    }
+  
+
+  /* .spcz-each-item {
+    width: calc(25% - 1em); 
+  }
+  .spcz-slider-button {
+    display: none;
+  } */
+
+}
+
+
+
+
