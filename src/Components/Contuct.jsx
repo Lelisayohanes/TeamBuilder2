@@ -32,8 +32,10 @@ function Contuct() {
               </div>
             </div>
             <button className="ctct-form-button">GET CONSULTATION</button>
+            
           </div>
         </div>
+        <div className='contuct-last-line'> </div>
       </div>
     </div>
   );

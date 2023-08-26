@@ -74,6 +74,7 @@ img {
     padding: 0.85em 1.25em;
     border: none;
     border-radius: 8px;
+    
     background: linear-gradient(100deg, rgba(255, 155, 0, 1) 1%, rgba(253, 164, 0, 1) 20%, rgba(255, 155, 1, 1) 40%, rgba(251, 189, 48, 1) 60%, rgba(247, 189, 1, 1) 80%, rgba(242, 203, 0, 1) 100%);
   }
   textarea {
@@ -84,4 +85,10 @@ img {
     font-size: 1em;
     resize: vertical; /* Allow vertical resizing */
     min-height: 5em; /* Set a minimum height */
+    /* background-color: yellow; */
+  }
+  .contuct-last-line{
+    background-color: rgb(34, 33, 33);
+    height: 2px;
+    margin: 3em 0em 1rem 0em;
   }

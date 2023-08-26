@@ -47,7 +47,6 @@ img{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
 
 /* Solutions.css */
@@ -138,7 +137,6 @@ img{
     margin-bottom: -0.4em;
     padding: 1em 0.5em 1em 1.25em;
     align-self: center;
-    
 }
 .each-spcz-description{
     background: #FEFEFE;
@@ -151,7 +149,6 @@ img{
 .spcz-each-items{
     margin-top: 2em;
     display: flex;  
-    
 }
 
 .spcz-each-items-mobile{
@@ -163,18 +160,27 @@ img{
 
 /* Add this media query to display all items in four columns for desktop */
 @media (min-width: 768px) {
-  .spcz-each-items-mobile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+    .spcz-slides{
+      display: block;
+      background-color: greenyellow;
+      
+      padding: 3em 0;
+    }
+    .spcz-slide {
+      width: calc(25% - 1em); 
+      background-color: #007bff;
+      display: block;
+      
+    }
   
-  .spcz-each-item {
+
+  /* .spcz-each-item {
     width: calc(25% - 1em); 
   }
   .spcz-slider-button {
     display: none;
-  }
+  } */
+
 }
 
 
