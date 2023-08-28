@@ -47,7 +47,6 @@ img {
     /* background-color: aqua; */
     font-size: 1rem;
     font-weight: 600;
-    
   }
   
   .ctct-contuct-form input {
@@ -91,4 +90,177 @@ img {
     background-color: rgb(34, 33, 33);
     height: 2px;
     margin: 3em 0em 1rem 0em;
+  }
+
+
+
+  @media (min-width: 768px) {
+    .contuct-last-line{
+      background-color: rgb(34, 33, 33) !important;
+      height: 2px;
+      margin: 0em 0em 1rem 0em;
+    }
+    .ctct-container{
+      background-color: transparent;
+      display: flex;
+      padding: 5% 10%;
+    }
+    .ctct-image{
+      background-color: #FFFFFF;
+      width: 785px;
+      height: 762px;
+      flex-shrink: 0;
+      border-radius: 0px 20px 100px 20px;
+    }
+    .ctct-image-img{
+      width: 785px;
+      height: 762px;
+    }
+
+    .ctct-over-image{
+      margin-top: 20em;
+      background-color: #FFFFFF;
+      width: 680px;
+      height: 668px;
+      flex-shrink: 0;
+      border-radius: 100px 0px 0px 0px;
+      margin-left: -46em;
+    }
+
+    .ctct-contuct-container{
+      background-color: #FFFFFF;
+      display: flex;
+      margin: 3em 3em 5em 5em;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 0.5em;
+      flex-shrink: 0;
+      max-width: 600px;
+    }
+    .ctct-contuct-header{
+      color: var(--default, #16205F);
+      font-size: 2rem;
+      font-weight: 600;
+      /* line-height: 58px; */
+      margin: 0;
+    }
+    .ctct-contuct-form{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    .ctct-contuct-btn{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      gap: 0;
+    }
+    .single-input{
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      
+    }
+    .label-design{
+      color: var(--black, #16205F);
+      font-size: 16px;
+      font-weight: 600;
+  }
+  .input-design{
+      display: flex;
+      padding: 10px 0px 10px 8px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      border: 1px solid #C5E0FF;
+      background: var(--white-default, #FFF);
+  }
+  .ctct-contuct-form input {
+    margin: 0;
+  }
+
+  }
+  @media (min-width: 880px) and (max-width:960px){
+    .ctct-over-image{
+      margin-top: 25em;
+      background-color: #FFFFFF;
+      width: 788px;
+      height: 668px;
+      flex-shrink: 0;
+      border-radius:  0px 100px 0px 0px;
+      margin-left: -40em;
+    }
+  }
+
+ 
+  @media (min-width: 768px) and (max-width:880px){
+
+    .ctct-over-image{
+      margin-top: 25em;
+      background-color: #FFFFFF;
+      width: 788px;
+      height: 668px;
+      flex-shrink: 0;
+      border-radius:  0px 100px 0px 0px;
+      margin-left: -44em;
+      /* background-color: green; */
+    }
+  }
+  @media (min-width: 1000px) and (max-width:1200px){
+    .ctct-over-image{
+      margin-top: 20em;
+      background-color: #FFFFFF;
+      width: 680px;
+      height: 668px;
+      flex-shrink: 0;
+      border-radius: 100px 0px 0px 0px;
+      margin-left: -38em;
+    }
+  }
+
+ 
+
+  @media (min-width: 1000px) and (max-width:1180px){
+    .ctct-over-image{
+      margin-top: 25em;
+      background-color: #FFFFFF;
+      width: 800px;
+      height: 668px;
+      flex-shrink: 0;
+      border-radius:  0px 100px 0px 0px;
+      margin-left: -40em;
+    }
+  }
+  @media (min-width: 1200px) and (max-width:1300px){
+    .ctct-over-image{
+      margin-top: 15em;
+      background-color: #FFFFFF;
+      width: 680px;
+      height: 668px;
+      flex-shrink: 0;
+      border-radius: 100px 0px 0px 0px;
+      margin-left: -28em;
+      
+    }
+  }
+  @media (min-width: 1300px){
+    .ctct-over-image{
+      margin-top: 3em;
+      background-color: #FFFFFF;
+      width: 680px;
+      height: 668px;
+      flex-shrink: 0;
+      border-radius: 100px 0px 0px 0px;
+      margin-left: -12em;
+      /* background-color: yellow; */
+    }
   }

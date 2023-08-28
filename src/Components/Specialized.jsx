@@ -164,17 +164,7 @@ export default function Specialized() {
                   </div>
                 </div>
 
-                <div className="spcz-each-item">
-                  <div className="each-spcz-image-background">
-                    <img
-                      className="each-spcz-image"
-                      src="../../src/assets/images/frontend 2.png"
-                    />
-                  </div>
-                  <div className="each-spcz-description">
-                    Frontend Engineers
-                  </div>
-                </div>
+               
 
                 <div className="spcz-each-item">
                   <div className="each-spcz-image-background">
@@ -232,7 +222,81 @@ export default function Specialized() {
             className="spcz-slide"
             style={{ display: currentSlideIndex === 2 ? "block" : "none" }}
           >
-            <div className="spcz-each-header">the three</div>
+             <div className="spcz-each-items">
+              <div className="spcz-each-items-mobile">
+                <div className="spcz-each-item">
+                  <div className="each-spcz-image-background">
+                    <img
+                      className="each-spcz-image"
+                      src="../../src/assets/images/frontend 2.png"
+                    />
+                  </div>
+                  <div className="each-spcz-description">
+                    Frontend Engineers
+                  </div>
+                </div>
+
+                <div className="spcz-each-item">
+                  <div className="each-spcz-image-background">
+                    <img
+                      className="each-spcz-image"
+                      src="../../src/assets/images/frontend 2.png"
+                    />
+                  </div>
+                  <div className="each-spcz-description">
+                    Frontend Engineers
+                  </div>
+                </div>
+
+                <div className="spcz-each-item">
+                  <div className="each-spcz-image-background">
+                    <img
+                      className="each-spcz-image"
+                      src="../../src/assets/images/frontend 2.png"
+                    />
+                  </div>
+                  <div className="each-spcz-description">
+                    Frontend Engineers
+                  </div>
+                </div>
+
+                <div className="spcz-each-item">
+                  <div className="each-spcz-image-background">
+                    <img
+                      className="each-spcz-image"
+                      src="../../src/assets/images/frontend 2.png"
+                    />
+                  </div>
+                  <div className="each-spcz-description">
+                    Frontend Engineers
+                  </div>
+                </div>
+
+                <div className="spcz-each-item">
+                  <div className="each-spcz-image-background">
+                    <img
+                      className="each-spcz-image"
+                      src="../../src/assets/images/frontend 2.png"
+                    />
+                  </div>
+                  <div className="each-spcz-description">
+                    Frontend Engineers
+                  </div>
+                </div>
+
+                <div className="spcz-each-item">
+                  <div className="each-spcz-image-background">
+                    <img
+                      className="each-spcz-image"
+                      src="../../src/assets/images/fontend.png"
+                    />
+                  </div>
+                  <div className="each-spcz-description">
+                    Frontend Engineers
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div
             className="spcz-slide"

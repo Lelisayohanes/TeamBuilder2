@@ -120,6 +120,7 @@ img{
 .each-spcz-image-background{
     background: yellow;
     border-radius: 8px;
+
 }
 .spcz-each-item{
     display: flex;
@@ -130,8 +131,9 @@ img{
     gap: 1em;
 }
 .each-spcz-image{
-    width: 37px;
-    height: 35.806px;
+    visibility: visible;
+    width: 64px;
+    height: 64px;
     flex-shrink: 0;
     background: #FEFEFE;
     margin-left: 0.6em;
@@ -162,21 +164,108 @@ img{
 }
 
 /* Add this media query to display all items in four columns for desktop */
-@media (min-width: 768px) {
-  .spcz-each-items-mobile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+@media (min-width: 700px) {
+  .spcz-container {
+    width: 80%;
+    padding-bottom: 4em;
   }
-  
-  .spcz-each-item {
-    width: calc(25% - 1em); 
+  .spcz-each-paragraph{
+    width: 100%;
   }
-  .spcz-slider-button {
+  .spcz-text {
+    /* display: none !important; */
+    width: 50%;
+  }
+  .spcz-slider-button{
     display: none;
+  }
+
+
+  .spcz-paragraph{
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:1.5em 0 3em 0;
+    padding-bottom:1em;
+}
+.spcz-slide{
+  
+  width: 100%;
+}
+
+.spcz-slide-text{
+
+  width: 100%;
+}
+  .spcz-slides {
+    /* background-color: #007bff; */
+    width: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    gap: 1rem;
+  }
+
+  .spcz-slide {
+    /* background-color: #FFF856; */
+    min-width: 230px;
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content horizontally to the start */
+    align-items: flex-start; /* Align content vertically to the start */
+    gap: 1em;
+  }
+  .spcz-slide-image {
+    width: auto;
+    margin: 0;
+    max-width: 124px;
+  }
+  .spcz-each-header{
+    font-size: 1.4rem;;
+  }
+ 
+  .spcz-slide-text{
+    width: 100%;
+    max-width:380px;
+    padding-right: 1em;
+  }
+  .slide-image{
+    width: 80px;
+    height: 80px;
   }
 }
 
+ @media (min-width: 700px) and (max-width: 1000px) {
+  .spcz-slides {
+    width: 100%;
+    margin: 1em 0em 0em 0em;  
+    display: flex;
+    flex-direction: row; /* Display slides in a row */
+    justify-content: center; /* Distribute space between slides */
+    align-items: flex-start; 
+    flex-wrap: wrap;
+  }
 
+  .spcz-slide {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 25%; 
+    gap: 0.125em; 
+    min-width: 260px;
+  }
+  .spcz-slide-text{
+    width: 100%;
+  }
+  .spcz-slide-image{
+    align-self: flex-start;
+    padding-left: 2em;
+  }
+}
 
 

@@ -2,27 +2,42 @@ import '../Styles/Contuct.css'
 
 function Contuct() {
   return (
-    <div>
+    <div className='ctct-container'>
       <div className="ctct-image">
-        <img src="../../src/assets/images/contu img.png" />
+        <img className='ctct-image-img' src="../../src/assets/images/contu img.png" />
       </div>
       <div className="ctct-over-image">
         <div className="ctct-contuct-container">
           <div className="ctct-contuct-header">
-            <div>Connect With Your Next Great Hire Today!</div>
+            Connect With Your Next Great Hire Today!
           </div>
           <div className="ctct-contuct-form">
-            <label>Company</label>
-            <input type="" placeholder="name" />
-            <label>Your name</label>
-            <input type="" />
-            <label>Phone number</label>
-            <input type="" />
-            <label>Email</label>
-            <input type="" />
-            <label>Project Detail</label>
-            <textarea></textarea>
-            <div>
+            <div className="single-input">
+              <label className='label-design'>Company&nbsp;&nbsp;</label>
+              <input className='input-design' type="" placeholder="name" />
+            </div>
+
+            <div className="single-input">
+              <label className='label-design'>Your name</label>
+              <input className='input-design' type="" />
+            </div>
+            
+            <div className="single-input">
+              <label className='label-design'>Phone number</label>
+              <input className='input-design' type="" />
+            </div>
+            
+            <div className="single-input">
+              <label className='label-design'>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              <input className='input-design' type="" />
+            </div>
+            
+            <div className="single-input">
+              <label className='label-design'>Project Detail</label>
+              <textarea className='input-design' ></textarea>
+            </div>
+          </div>
+          <div className='ctct-contuct-btn'>
               <div className="ctct-check-box">
                 <input type="checkbox" checked name="" />
                 <div className="ctct-us-policy">
@@ -32,12 +47,12 @@ function Contuct() {
               </div>
             </div>
             <button className="ctct-form-button">GET CONSULTATION</button>
-            
-          </div>
         </div>
-        <div className='contuct-last-line'> </div>
+        
       </div>
+      
     </div>
+    
   );
 }
 

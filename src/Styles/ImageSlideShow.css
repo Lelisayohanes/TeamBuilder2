@@ -4,10 +4,7 @@
     margin: auto;
   }
   
-  /* .iss-slide {
-    display: block;
-    position: relative;
-  } */
+
   .iss-slide {
     display: flex; /* Use flexbox to center the image */
     align-items: center;
@@ -20,14 +17,7 @@
     height: 64px; /* Set the desired height */
     object-fit: contain; /* Maintain the aspect ratio and contain the image */
   }
-  /* .iss-slide img {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    width: 213px;
-    height: 71px;
-    flex-shrink: 0;
-  } */
+ 
   
   .iss-prev,
   .iss-next {
@@ -77,3 +67,8 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media screen and (min-width: 768px) {
+  
+
+}

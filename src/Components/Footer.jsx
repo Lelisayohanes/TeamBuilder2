@@ -3,6 +3,7 @@ import  '../Styles/Footer.css';
 function Footer() {
   return (
     <div className="footer-container">
+                <div className='contuct-last-line'> </div>
         <div className='footer-container-item1'>
             <div className="footer-item footer-about"> 
                 <div className='footer-about-logo'>
@@ -71,7 +72,7 @@ function Footer() {
         <div className="footer-item footer-social"> 
             <img src='../../src/assets/images/Group 55 footer social.png' />
         </div>
-
+        <div className='contuct-last-line'> </div>
         <div className=" footer-item footer-copyright">
             <p>&copy; <span id="year"></span> 2023 Courtney</p>
         </div>
